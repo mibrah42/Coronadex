@@ -26,6 +26,9 @@
 1. Download Expo Client from iOS App store or Google play store
 2. Scan the following QR code with your camera app for iOS, or with the expo app for Android. 
 
+<img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/QRCode.png?raw=true"/>
+
+
 ### Links
 - Product Hunt: https://www.producthunt.com/posts/coronadex
 - Expo: https://expo.io/@mibrah42/coronadex
