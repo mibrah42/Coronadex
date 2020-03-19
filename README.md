@@ -23,6 +23,13 @@
 - Product Hunt: https://www.producthunt.com/posts/coronadex
 - Expo: https://expo.io/@mibrah42/coronadex
 
+### Tech Stack
+ - React Native
+ - Typescript
+ - Express.js
+ - [Twitter search api](https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets)
+ - [newsapi.org](https://newsapi.org/)
+
 ### Credits
  - Data sources
    - https://github.com/mathdroid/covid-19-api
