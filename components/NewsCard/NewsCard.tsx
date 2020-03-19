@@ -28,7 +28,9 @@ const NewsCard = ({
         <Text style={styles.createdAt}>
           {new Date(publishedAt).toDateString()}
         </Text>
-        <Text style={styles.textStyle}>{description}</Text>
+        {description == null || description === "" ? null : (
+          <Text style={styles.textStyle}>{description}</Text>
+        )}
       </View>
     </View>
 
