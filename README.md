@@ -19,3 +19,17 @@
   <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/news.png?raw=true" width="200"/>
 </div>
 
+### Links
+- Product Hunt: https://www.producthunt.com/posts/coronadex
+- Expo: https://expo.io/@mibrah42/coronadex
+
+### Credits
+ - Data sources
+   - https://github.com/mathdroid/covid-19-api
+   - https://newsapi.org/
+ - Pokedex graphic icon
+   - <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+ - Virus graphic icon
+   - <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+ - Pokemon font generator
+   - https://textcraft.net/style/Textcraft/pokemon
