@@ -4,7 +4,7 @@
 <img src="https://github.com/mibrah42/Coronadex/blob/master/assets/icon.png?raw=true" width="300"/>
 </p>
 
-<p align="center"><i>Coronadex is an app that lets you track the coronavirus pandemic and stay up to date with the latest news and tweets.</i></p>
+<p align="center"><i>Coronadex is an app that lets you track the coronavirus (COVID-19) pandemic and stay up to date with the latest news and tweets.</i></p>
 
 
 **Features:** 
