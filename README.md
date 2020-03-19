@@ -27,6 +27,7 @@
  - React Native
  - Typescript
  - Express.js
+ - [COVID-19 API](https://github.com/mathdroid/covid-19-api)
  - [Twitter search api](https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets)
  - [newsapi.org](https://newsapi.org/)
 
