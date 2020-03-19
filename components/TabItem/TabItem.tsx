@@ -19,7 +19,9 @@ export const TabItem = ({ title, selected = false, onPress }) => (
 const styles = StyleSheet.create({
   badge: {
     padding: 8,
-    borderRadius: 20
+    borderRadius: 20,
+    width: 105,
+    alignItems: "center"
   },
   badgeText: {
     color: "white",

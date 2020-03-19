@@ -20,7 +20,7 @@ function MapStackNavigator() {
           title: null,
           headerTintColor: darkBlue
         }}
-        name="TweetScreen"
+        name="WebViewScreen"
         component={WebViewScreen}
       />
     </Stack.Navigator>

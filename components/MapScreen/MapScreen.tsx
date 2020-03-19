@@ -20,6 +20,7 @@ import CountryListItem, { CountryData } from "./components/CountryListItem";
 import Drawer from "react-native-draggable-view";
 import Map from "../Map";
 import TweetsContainer from "../TweetsContainer";
+import NewsContainer from "../NewsContainer";
 import { DATA_API_URL } from "../../utils/config";
 import TabItem from "../TabItem";
 
@@ -31,7 +32,8 @@ export enum StatusType {
 
 enum Tabs {
   countries = "COUNTRIES",
-  tweets = "TWEETS"
+  tweets = "TWEETS",
+  news = "NEWS"
 }
 
 interface stats {
@@ -165,15 +167,20 @@ export function MapScreen({ navigation }) {
       </View>
     );
 
-  const handleOnViewTweet = useCallback((postUrl: string) => {
-    navigation.navigate("TweetScreen", {
+  const handleOnViewItem = useCallback((postUrl: string) => {
+    navigation.navigate("WebViewScreen", {
       url: postUrl
     });
   }, []);
 
   const Tweets =
     activeTab !== Tabs.tweets ? null : (
-      <TweetsContainer onViewTweet={handleOnViewTweet} />
+      <TweetsContainer onViewItem={handleOnViewItem} />
+    );
+
+  const News =
+    activeTab !== Tabs.news ? null : (
+      <NewsContainer onViewItem={handleOnViewItem} />
     );
 
   const updatedDate =
@@ -227,9 +234,15 @@ export function MapScreen({ navigation }) {
               onPress={() => setActiveTab(Tabs.tweets)}
               selected={activeTab === Tabs.tweets}
             />
+            <TabItem
+              title={Tabs.news}
+              onPress={() => setActiveTab(Tabs.news)}
+              selected={activeTab === Tabs.news}
+            />
           </Appbar>
           {countriesContainer}
           {Tweets}
+          {News}
         </View>
       )}
       renderInitDrawerView={() => (
@@ -284,6 +297,7 @@ const styles = StyleSheet.create({
   countriesView: {
     backgroundColor: darkBlue,
     paddingTop: 8,
+    paddingBottom: 120,
     flexGrow: 1
   },
   updatedDateTextStyle: { textAlign: "center", color: "#95a5a6" },
