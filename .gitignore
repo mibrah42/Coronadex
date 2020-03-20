@@ -10,6 +10,7 @@ npm-debug.*
 web-build/
 web-report/
 utils/config.ts
+utils/request.ts
 app.json
 
 # macOS

@@ -3,6 +3,7 @@ import { FlatList, View, StyleSheet } from "react-native";
 import { ActivityIndicator, Button, Text } from "react-native-paper";
 import { lightGreen } from "../../utils/colors";
 import { TWITTER_API_URL } from "../../utils/config";
+import { alternativeTweets } from "../../utils/request";
 import TweetCard from "../TweetCard";
 
 const QUERY = "COVID-19";
@@ -35,7 +36,10 @@ function TweetsContainer({ onViewItem }: Props) {
       );
       const data = await res.json();
       setIsFetchingTweets(false);
-      if (data == null) return;
+      if (data == null) {
+        setTweets(alternativeTweets);
+        return;
+      }
       setTweets(data);
     } catch (err) {
       setIsFetchingTweets(false);
@@ -49,8 +53,6 @@ function TweetsContainer({ onViewItem }: Props) {
 
   const handleLoadMore = async () => {
     if (tweets.length === 0) return;
-    console.log({ tweets });
-    console.log({ id: tweets[tweets.length - 1]["id"] });
     try {
       setIsLoadingMore(true);
       const res = await fetch(
@@ -92,7 +94,7 @@ function TweetsContainer({ onViewItem }: Props) {
       <ActivityIndicator animating={true} color={lightGreen} />
     </View>
   ) : (
-    <View style={{ marginBottom: 300, flexGrow: 1 }}>
+    <View style={styles.listContainer}>
       <FlatList
         data={tweets}
         refreshing={isFetchingTweets}
@@ -124,6 +126,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginVertical: 16
   },
+  listContainer: { marginBottom: 300, flexGrow: 1 },
   footer: {
     alignItems: "center",
     justifyContent: "center",

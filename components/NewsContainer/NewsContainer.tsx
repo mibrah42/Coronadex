@@ -5,6 +5,7 @@ import { lightGreen } from "../../utils/colors";
 import { NEWS_API_URL } from "../../utils/config";
 import NewsCard from "../NewsCard";
 import { getFormattedDate } from "../../utils/helper";
+import { alternativeNews } from "../../utils/request";
 
 const QUERY = "COVID-19";
 
@@ -33,7 +34,10 @@ function NewsContainer({ onViewItem }: Props) {
       );
       const data = await res.json();
       setIsFetchingNews(false);
-      if (data == null) return;
+      if (data == null || data.status !== "ok") {
+        setNews(alternativeNews);
+        return;
+      }
       const { articles } = data;
       setNews(
         articles.map(
