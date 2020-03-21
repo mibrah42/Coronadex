@@ -33,8 +33,8 @@
 _Since the iOS app store and Google play store restrict covid-19 app distribution to health and governmental institutions. The app is only available through expo. Follow the steps below to run the app on your phone._
 
 ### Steps to run application
-1. Download Expo Client from iOS App store or Google play store.
-2. Scan the following QR code with your camera app for iOS, or with the expo app for Android. 
+1. Download Expo Client from the Google play store (unfortunately apple doesn't allow sharing published links for expo).
+2. Scan the following QR code. 
 
 <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/QRCode.png?raw=true"/>
 
