@@ -9,17 +9,16 @@
 
 <p align="center"><i>Coronadex is an app that lets you track the coronavirus (COVID-19) pandemic and stay up to date with the latest news and tweets.</i></p>
 
-
 **Features:** 
 
 - Up to date data about cases around the world from John Hopkins University CSSE.
-<img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/countries.gif?raw=true" width="200"/>
-
-- Display the latest Tweets covering the pandemic.
-<img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/tweets.gif?raw=true" width="200"/>
-
+- Display the latest tweets covering the pandemic.
 - Display recently published articles from newsapi.org.
- <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/news.gif?raw=true" width="200"/>
+
+| Cases per country  | Tweets  | News  |
+|--------------------------------------|----------------------------------------------------------------|---|
+| <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/countries.gif?raw=true" width="200"/>  | <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/tweets.gif?raw=true" width="200"/> | <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/news.gif?raw=true" width="200"/>  |
+
 
 ### Steps to run application
 1. Download Expo Client from iOS App store or Google play store.
