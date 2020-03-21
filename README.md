@@ -15,10 +15,20 @@
 - Display the latest tweets covering the pandemic.
 - Display recently published articles from newsapi.org.
 
-| Cases per country  | Tweets  | News  |
-|--------------------------------------|----------------------------------------------------------------|---|
-| <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/countries.gif?raw=true" width="200"/>  | <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/tweets.gif?raw=true" width="200"/> | <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/news.gif?raw=true" width="200"/>  |
-
+<div align="center">
+<table class="tg">
+  <tr>
+    <th class="tg-0lax">Cases per country</th>
+    <th class="tg-0lax">Tweets</th>
+    <th class="tg-0lax">News</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/countries.gif?raw=true" width="200"/></td>
+    <td class="tg-0lax"><img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/tweets.gif?raw=true" width="200"/></td>
+    <td class="tg-0lax"><img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/news.gif?raw=true" width="200"/></td>
+  </tr>
+</table>
+  </div>
 
 ### Steps to run application
 1. Download Expo Client from iOS App store or Google play store.
