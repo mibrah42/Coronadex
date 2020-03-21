@@ -28,7 +28,6 @@
 
 <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/QRCode.png?raw=true"/>
 
-
 ### Links
 - Product Hunt: https://www.producthunt.com/posts/coronadex
 - Expo: https://expo.io/@mibrah42/coronadex
@@ -51,3 +50,9 @@
    - <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
  - Pokemon font generator
    - https://textcraft.net/style/Textcraft/pokemon
+   
+   
+   <br/>
+   <br/>
+
+This app was made in quarantine ☣️ by Mohamed Ibrahim. For other projects, please visit [mohamedibrahim.ca](http://mohamedibrahim.ca).
