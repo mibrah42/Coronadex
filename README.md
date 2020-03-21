@@ -55,4 +55,4 @@
    <br/>
    <br/>
 
-This app was made in quarantine ☣️ by Mohamed Ibrahim. For other projects, please visit [mohamedibrahim.ca](http://mohamedibrahim.ca).
+This app was made in quarantine ☢ by Mohamed Ibrahim. For other projects, please visit [mohamedibrahim.ca](http://mohamedibrahim.ca).
