@@ -37,8 +37,8 @@
 <img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/QRCode.png?raw=true"/>
 
 ### Links
-- Product Hunt: https://www.producthunt.com/posts/coronadex
-- Expo: https://expo.io/@mibrah42/coronadex
+- [Product Hunt](https://www.producthunt.com/posts/coronadex-2)
+- [Expo app](https://expo.io/@mibrah42/coronadex)
 
 ### Tech Stack
  - React Native
