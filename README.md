@@ -4,7 +4,7 @@
 <img src="https://github.com/mibrah42/Coronadex/blob/master/assets/icon.png?raw=true" width="300"/>
 </p>
 <p align="center">
-  <a href="https://www.producthunt.com/posts/coronadex?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-coronadex" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=188581&theme=dark" alt="Coronadex - COVID-19 Tracker, News, and Tweets | Product Hunt Embed" style="width: 250px; height: 54px;" width="200px"  /></a>
+  <a href="https://www.producthunt.com/posts/coronadex-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-coronadex-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=188923&theme=dark" alt="Coronadex - COVID-19 Tracker, News, and Tweets | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
   </p>
 
 <p align="center"><i>Coronadex is an app that lets you track the coronavirus (COVID-19) pandemic and stay up to date with the latest news and tweets.</i></p>
