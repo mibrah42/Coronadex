@@ -65,4 +65,4 @@ _Since the iOS app store and Google play store restrict covid-19 app distributio
    <br/>
    <br/>
 
-This app was made in quarantine ☢ by Mohamed Ibrahim. For other projects, please visit [mohamedibrahim.ca](http://mohamedibrahim.ca).
+This app was made in quarantine ☢ by Mohamed Ibrahim.
