@@ -30,7 +30,7 @@
 </table>
   </div>
 
-_Since the iOS app store and Google play store restrict app distribution to health and governmental organizations. The app is only available through expo. Follow the steps below to run the app on your phone._
+_Since the iOS app store and Google play store restrict covid-19 app distribution to health and governmental institutions. The app is only available through expo. Follow the steps below to run the app on your phone._
 
 ### Steps to run application
 1. Download Expo Client from iOS App store or Google play store.
