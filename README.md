@@ -6,8 +6,6 @@
 
 <p align="center">
   <a href="https://www.producthunt.com/posts/coronadex-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-coronadex-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=188923&theme=dark" alt="Coronadex - COVID-19 Tracker, News, and Tweets | Product Hunt Embed" width="200px" /></a>
-  <br/>
-  <a href="https://coronadex.surge.sh/">coronadex.surge.sh</a>
   </p>
 
 <p align="center"><i>Coronadex is an app that lets you track the coronavirus (COVID-19) pandemic and stay up to date with the latest news and tweets.</i></p>
@@ -32,6 +30,11 @@
   </tr>
 </table>
   </div>
+
+### Web version 
+[coronadex.surge.sh](https://coronadex.surge.sh/)
+
+### Mobile version
 
 _Since the iOS app store and Google play store restrict covid-19 app distribution to health and governmental institutions. The app is only available through expo. Follow the steps below to run the app on your phone._
 
