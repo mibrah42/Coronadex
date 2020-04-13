@@ -31,10 +31,11 @@
 </table>
   </div>
 
-### Web version 
+## Web version 
 [coronadex.surge.sh](https://coronadex.surge.sh/)
+<img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/web_screenshot.png?raw=true" width="600"/>
 
-### Mobile version
+## Mobile version
 
 _Since the iOS app store and Google play store restrict covid-19 app distribution to health and governmental institutions. The app is only available through expo. Follow the steps below to run the app on your phone._
 
