@@ -48,6 +48,7 @@ _Since the iOS app store and Google play store restrict covid-19 app distributio
 
 ### Links
 - [Product Hunt](https://www.producthunt.com/posts/coronadex-2)
+- [Web app](https://coronadex.surge.sh)
 - [Expo app](https://expo.io/@mibrah42/coronadex)
 
 ### Tech Stack
