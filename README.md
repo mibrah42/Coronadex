@@ -33,7 +33,8 @@
 
 ## Web version 
 [coronadex.surge.sh](https://coronadex.surge.sh/)
-<img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/web_screenshot.png?raw=true" width="600"/>
+
+<img src="https://github.com/mibrah42/Coronadex/blob/master/screenshots/web_screenshot.png?raw=true"/>
 
 ## Mobile version
 
