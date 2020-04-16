@@ -61,6 +61,7 @@ _Since the iOS app store and Google play store restrict covid-19 app distributio
 
 ### Credits
  - Data sources
+   - https://www.thinkdataworks.com/products/namara
    - https://github.com/mathdroid/covid-19-api
    - https://newsapi.org/
  - Pokedex graphic icon
